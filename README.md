@@ -67,7 +67,7 @@ By analyzing these three factors, businesses can effectively segment their custo
 
 1. Clone this repository:
 ```bash
-git clone https://github.com/yourusername/RFM-Project.git
+git clone https://github.com/wanghang1117/RFM-Project.git
 cd RFM-Project
 ```
 
@@ -104,16 +104,6 @@ This project uses the Online Retail dataset, which contains all transactions for
 | CustomerID | Unique identifier for customer |
 | Country | Country where customer resides |
 
-### Sample Data:
-<p align="center">
-  <img src="images/sample_data.png" alt="Sample Data" width="700"/>
-</p>
-
-### Exploratory Analysis:
-<p align="center">
-  <img src="images/missing_values.png" alt="Missing Values Analysis" width="600"/>
-</p>
-
 ## 📁 Project Structure
 
 - `RFM_Project.ipynb`: Main Jupyter notebook containing the analysis
@@ -134,11 +124,6 @@ This project uses the Online Retail dataset, which contains all transactions for
 
 ### Key Visualizations
 
-#### Clustering Analysis
-<p align="center">
-  <img src="images/cluster_analysis.png" alt="Customer Clusters" width="600"/>
-</p>
-
 #### RFM Score Distribution
 <p align="center">
   <img src="images/rfm_score_distribution.png" alt="RFM Score Distribution" width="600"/>
@@ -151,12 +136,6 @@ This project uses the Online Retail dataset, which contains all transactions for
 
 ## 🔍 Results & Insights
 
-The analysis identified three primary customer segments:
-
-<p align="center">
-  <img src="images/customer_segments.png" alt="Customer Segments" width="700"/>
-</p>
-
 ### Customer Segment Characteristics
 
 | Segment | Description | Key Metrics | Recommended Strategy |
@@ -164,14 +143,6 @@ The analysis identified three primary customer segments:
 | **Platinum Customers (Cluster 1)** | High-value, loyal customers | - High frequency<br>- Very high monetary value<br>- Low recency | - Loyalty programs<br>- VIP offers<br>- Exclusive products<br>- Early access to new products |
 | **Gold Customers (Cluster 2)** | Regular customers with growth potential | - Medium frequency<br>- Medium monetary value<br>- Low recency | - Upselling<br>- Cross-selling<br>- Incentives to increase purchase frequency<br>- Bundle offers |
 | **Silver Customers (Cluster 0)** | At-risk or occasional customers | - Low frequency<br>- Low monetary value<br>- High recency | - Re-engagement campaigns<br>- Special discounts<br>- Win-back promotions<br>- Feedback surveys |
-
-### Segment Distributions
-
-The distribution of customers across segments shows opportunities for targeted marketing:
-
-<p align="center">
-  <img src="images/segment_distribution.png" alt="Segment Distribution" width="600"/>
-</p>
 
 ### Business Impact
 
