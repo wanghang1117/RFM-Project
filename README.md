@@ -13,6 +13,44 @@ This project performs customer segmentation using the **RFM model** (Recency, Fr
 
 ---
 
+## 📂 About the Data
+
+The dataset used in this project, `rfm_stock_data.csv`, contains transaction-level data capturing customer purchase behavior in a stock-based product environment. Each row represents a single transaction and includes critical attributes that allow for the application of RFM (Recency, Frequency, Monetary) analysis for customer segmentation.
+
+### 📌 Key Fields in the Dataset:
+
+- **CustomerID**: A unique identifier for each customer.
+- **InvoiceDate**: The date and time when the transaction occurred.
+- **Quantity**: The number of units purchased in the transaction.
+- **UnitPrice**: The price per unit of the purchased product.
+- *(Optional fields may include InvoiceNo, StockCode, etc.)*
+
+### 📈 Purpose of the Dataset:
+
+This dataset is ideal for performing customer segmentation through **RFM analysis**, a proven framework in marketing analytics. It allows us to evaluate:
+
+- **Recency**: How recently a customer has made a purchase.
+- **Frequency**: How frequently the customer has made purchases.
+- **Monetary Value**: How much the customer has spent in total.
+
+Using these dimensions, we can score and segment customers into categories such as:
+- High-value loyal customers
+- Big spenders
+- At-risk or lost customers
+- New and potential customers
+
+### 🧠 Why This Data Is Useful:
+
+This type of transaction data is commonly used in retail, e-commerce, and financial platforms to:
+- Improve personalized marketing campaigns
+- Boost customer retention strategies
+- Increase customer lifetime value (CLV)
+- Perform churn analysis and loyalty prediction
+
+The dataset reflects realistic purchasing behavior and provides a foundation for applying **data-driven decision making** in business analytics.
+
+---
+
 ## 📊 Example Segments
 
 | Segment Name           | Description                                   |
