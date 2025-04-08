@@ -237,12 +237,6 @@ This RFM framework can be integrated with:
 
 This project is licensed under the MIT License - see the LICENSE file for details.
 
-## 👏 Acknowledgments
-
-- [Online Retail Dataset](https://archive.ics.uci.edu/ml/datasets/online+retail) from the UCI Machine Learning Repository
-- Dr. Daqing Chen, Course Director: MSc Data Science at London South Bank University for making the dataset available
-- Inspiration from various RFM analysis implementations in the data science community
-
 ---
 
 <p align="center">
